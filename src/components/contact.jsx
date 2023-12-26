@@ -12,7 +12,7 @@ const contact = () => {
         </div>
         <div className='row'>
           <div className='col-lg-12 col-6'>
-            <div className='container bg-secondary'>
+            <div className='container'>
               <div className='row'>
                 <div className='col-lg-2 col-12 offset-lg-4'>
                   <div className='text-light mt-5'>LinkedIn</div>

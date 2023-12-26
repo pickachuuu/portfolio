@@ -58,8 +58,8 @@ const About = () => {
             className="rounded-circle d-block mx-auto mt-3 shadow-lg"
             alt="Rounded Image"
             style={{
-              width: '60%',
-              height: '60%',
+              width: '50%',
+              height: '55%',
               borderRadius: '60%',
             }}
           />
