@@ -18,7 +18,7 @@ const contact = () => {
                   <div className='text-light mt-5'>LinkedIn</div>
                 </div>
                 <div className='col-lg-2 col-12 offset-2'>
-                  <div className='text-light mt-5'>Facebook</div>
+                  <div className='text-light mt-5'>Github</div>
                 </div>
               </div>
               <div className='row'>
