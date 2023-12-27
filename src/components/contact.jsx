@@ -17,12 +17,16 @@ const contact = () => {
                 <div className='col-lg-2 col-12 offset-lg-4'>
                   <div className='text-light mt-5'>LinkedIn</div>
                 </div>
-                <div className='col-lg-2 col-12 offset-2'>
+                <div className='col-lg-5 col-12 offset-lg-1'>
                   <div className='text-light mt-5'>Github</div>
                 </div>
               </div>
               <div className='row'>
-                <div className='col-lg-2 offset-4'>
+                <div className='col-lg-2 col-12 offset-lg-4'>
+                  <div className='text-light mt-5'>Facebook</div>
+                </div>
+                <div className='col-lg-5 col-12 offset-lg-1'>
+                  <div className='text-light mt-5'>Email</div>
                 </div>
               </div>
             </div>
