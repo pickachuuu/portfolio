@@ -37,7 +37,7 @@ const WorkSection = () => {
         </ul>
         <div className="tab-content my-4">
           <div className="tab-pane fade show active" id="tab1">
-            {/* Content for tab1 is empty */}
+            {/* Content for tab1*/}
             <div className="row">
               <div className="col-md-4 mb-4">
                 <div className="card bg-dark text-light" style={{ border: 'none' }}>
@@ -81,6 +81,7 @@ const WorkSection = () => {
               </div>
             </div>
           </div>
+          {/* Content for tab2*/}
           <div className="tab-pane fade" id="tab2">
             <div className="row">
               <div className="col-md-4 mb-4">
@@ -91,32 +92,6 @@ const WorkSection = () => {
                   <div className="card-body">
                     <h5 className="card-title d-inline-block p-1">Pongbat</h5>
                     <span className="badge text-bg-warning ml-5">NEW</span>
-                    <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie ipsum, eget dapibus purus. Integer commodo vulputate justo nec varius.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 mb-4">
-                <div className="card bg-dark text-light" style={{ border: 'none' }}>
-                  <a href="https://github.com/pickachuuu/Dino">
-                    <img src={Dino} className="card-img-top" alt="Placeholder" />
-                  </a>
-                  <div className="card-body">
-                    <h5 className="card-title p-1">Dino Jump</h5>
-                    <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie ipsum, eget dapibus purus. Integer commodo vulputate justo nec varius.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 mb-4">
-                <div className="card bg-dark text-light" style={{ border: 'none' }}>
-                  <a href="https://github.com/pickachuuu/Pong">
-                    <img src={Pong} className="card-img-top" alt="Placeholder" />
-                  </a>
-                  <div className="card-body">
-                    <h5 className="card-title p-1">Pong</h5>
                     <p className="card-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie ipsum, eget dapibus purus. Integer commodo vulputate justo nec varius.
                     </p>
