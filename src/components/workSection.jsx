@@ -87,8 +87,8 @@ const WorkSection = () => {
             <div className="row">
               <div className="col-md-4 mb-4">
                 <div className="card bg-dark text-light" style={{ border: 'none' }}>
-                  <a href="https://github.com/pickachuuu/OOP-Project">
-                    <img src={Pycal} className="card-img-top cardImg" alt="Placeholder" />
+                  <a href="https://github.com/pickachuuu/Calculator">
+                    <img src={Pycal} className="card-img-top cardImg" alt="Placeholder"/>
                   </a>
                   <div className="card-body">
                     <h5 className="card-title d-inline-block p-1">Pycal</h5>
