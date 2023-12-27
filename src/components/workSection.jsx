@@ -2,6 +2,7 @@ import React from 'react';
 import Dino from '../images/1.png';
 import Pong from '../images/2.png';
 import Pongbat from '../images/3.png';
+import Pycal from '../images/4.png';
 
 const WorkSection = () => {
   return (
@@ -87,11 +88,10 @@ const WorkSection = () => {
               <div className="col-md-4 mb-4">
                 <div className="card bg-dark text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/OOP-Project">
-                    <img src={Pongbat} className="card-img-top cardImg" alt="Placeholder" />
+                    <img src={Pycal} className="card-img-top cardImg" alt="Placeholder" />
                   </a>
                   <div className="card-body">
-                    <h5 className="card-title d-inline-block p-1">Pongbat</h5>
-                    <span className="badge text-bg-warning ml-5">NEW</span>
+                    <h5 className="card-title d-inline-block p-1">Pycal</h5>
                     <p className="card-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie ipsum, eget dapibus purus. Integer commodo vulputate justo nec varius.
                     </p>
