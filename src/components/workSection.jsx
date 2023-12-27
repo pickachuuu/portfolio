@@ -49,7 +49,7 @@ const WorkSection = () => {
                     <h5 className="card-title d-inline-block p-1">Pongbat</h5>
                     <span className="badge text-bg-warning ml-5">NEW</span>
                     <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie ipsum, eget dapibus purus. Integer commodo vulputate justo nec varius.
+                      Basic pong game but added characters and health base gameplay. made using pygame and python.
                     </p>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ const WorkSection = () => {
                   <div className="card-body">
                     <h5 className="card-title p-1">Dino Jump</h5>
                     <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie ipsum, eget dapibus purus. Integer commodo vulputate justo nec varius.
+                      Inspired from the chrome dino jump game. Made using pygame and python.
                     </p>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const WorkSection = () => {
                   <div className="card-body">
                     <h5 className="card-title p-1">Pong</h5>
                     <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie ipsum, eget dapibus purus. Integer commodo vulputate justo nec varius.
+                      Classic pong game remake using pygame and python.
                     </p>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ const WorkSection = () => {
                   <div className="card-body">
                     <h5 className="card-title d-inline-block p-1">Pycal</h5>
                     <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie ipsum, eget dapibus purus. Integer commodo vulputate justo nec varius.
+                      A simple calculator app made using tkinter and python.
                     </p>
                   </div>
                 </div>
