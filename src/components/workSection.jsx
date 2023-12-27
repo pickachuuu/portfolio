@@ -42,7 +42,7 @@ const WorkSection = () => {
               <div className="col-md-4 mb-4">
                 <div className="card bg-dark text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/OOP-Project">
-                    <img src={Pongbat} className="card-img-top" alt="Placeholder" />
+                    <img src={Pongbat} className="card-img-top cardImg" alt="Placeholder" />
                   </a>
                   <div className="card-body">
                     <h5 className="card-title d-inline-block p-1">Pongbat</h5>
@@ -56,7 +56,7 @@ const WorkSection = () => {
               <div className="col-md-4 mb-4">
                 <div className="card bg-dark text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/Dino">
-                    <img src={Dino} className="card-img-top" alt="Placeholder" />
+                    <img src={Dino} className="card-img-top cardImg" alt="Placeholder" />
                   </a>
                   <div className="card-body">
                     <h5 className="card-title p-1">Dino Jump</h5>
@@ -69,7 +69,7 @@ const WorkSection = () => {
               <div className="col-md-4 mb-4">
                 <div className="card bg-dark text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/Pong">
-                    <img src={Pong} className="card-img-top" alt="Placeholder" />
+                    <img src={Pong} className="card-img-top cardImg" alt="Placeholder" />
                   </a>
                   <div className="card-body">
                     <h5 className="card-title p-1">Pong</h5>
@@ -87,7 +87,7 @@ const WorkSection = () => {
               <div className="col-md-4 mb-4">
                 <div className="card bg-dark text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/OOP-Project">
-                    <img src={Pongbat} className="card-img-top" alt="Placeholder" />
+                    <img src={Pongbat} className="card-img-top cardImg" alt="Placeholder" />
                   </a>
                   <div className="card-body">
                     <h5 className="card-title d-inline-block p-1">Pongbat</h5>
@@ -106,8 +106,7 @@ const WorkSection = () => {
         </div>
       </div>
       <div className="text-center">
-        <a type="button" className="btn btn-primary btn-lg" href="https://github.com/pickachuuu">
-          Full Portfolio
+        <a type="button" className="button" href="https://github.com/pickachuuu">
         </a>
       </div>
     </div>
