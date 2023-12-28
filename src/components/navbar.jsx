@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav id="navbar-example2" className="navbar navbar-expand-lg bg-body-tertiary fixed-top"  data-bs-theme="dark"  style={{background: "#351c75"}}>
       <div className="container-fluid">
         <a className="navbar-brand text-primary" href="#">
-          Derek.me
+          Derek Berbo
         </a>
         <button
           className="navbar-toggler"

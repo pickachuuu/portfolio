@@ -6,7 +6,7 @@ import Pycal from '../images/4.png';
 
 const WorkSection = () => {
   return (
-    <div className="container-fluid py-5 bg-dark text-light" id="scrollspyHeading3">
+    <div className="container-fluid py-5 bg-custom1 text-light" id="scrollspyHeading3">
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
@@ -26,13 +26,8 @@ const WorkSection = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#tab3">
+            <a className="nav-link" data-bs-toggle="tab" href="#tab3">
               WEBSITE
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link disabled" aria-disabled="true">
-              Disabled
             </a>
           </li>
         </ul>
@@ -41,7 +36,7 @@ const WorkSection = () => {
             {/* Content for tab1*/}
             <div className="row">
               <div className="col-md-4 mb-4">
-                <div className="card bg-dark text-light" style={{ border: 'none' }}>
+                <div className="card bg-black text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/OOP-Project">
                     <img src={Pongbat} className="card-img-top cardImg" alt="Placeholder" />
                   </a>
@@ -55,7 +50,7 @@ const WorkSection = () => {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="card bg-dark text-light" style={{ border: 'none' }}>
+                <div className="card bg-black text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/Dino">
                     <img src={Dino} className="card-img-top cardImg" alt="Placeholder" />
                   </a>
@@ -68,7 +63,7 @@ const WorkSection = () => {
                 </div>
               </div>
               <div className="col-md-4 mb-4">
-                <div className="card bg-dark text-light" style={{ border: 'none' }}>
+                <div className="card bg-black text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/Pong">
                     <img src={Pong} className="card-img-top cardImg" alt="Placeholder" />
                   </a>
@@ -86,7 +81,7 @@ const WorkSection = () => {
           <div className="tab-pane fade" id="tab2">
             <div className="row">
               <div className="col-md-4 mb-4">
-                <div className="card bg-dark text-light" style={{ border: 'none' }}>
+                <div className="card bg-black text-light" style={{ border: 'none' }}>
                   <a href="https://github.com/pickachuuu/Calculator">
                     <img src={Pycal} className="card-img-top cardImg" alt="Placeholder"/>
                   </a>
