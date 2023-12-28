@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-12">
+        <div className="col-12 mx-auto">
           <div className="container">
             <div className="row">
               <div className="col-12">
