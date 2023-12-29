@@ -96,6 +96,7 @@ a {
   
   .profile {
     width: 70%;
+    margin: 0 auto;
     height: 454px;
     position: relative;
     background: #f5f5f5;
@@ -105,7 +106,8 @@ a {
     line-height: 150%;
     box-shadow: 0px 10px 20px rgba(0, 255, 191, 0.2);
     transition: box-shadow .3s ease-in-out;
-  }
+}
+
   
   .profile-info {
     position: absolute;
