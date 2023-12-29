@@ -17,32 +17,32 @@ const Contact = () => {
           <div className="container">
             <div className="row">
               <div className="col-12">
-              <form class="form bg-dark my-5 shadow-lg" action='https://formspree.io/f/meqyqqzb' method='POST'>
-                  <div class="flex mt-5">
+              <form className="form bg-dark my-5 shadow-lg" action='https://formspree.io/f/meqyqqzb' method='POST'>
+                  <div className="flex mt-5">
                       <label>
-                          <input placeholder="" type="text" class="input bg-secondary text-light" name='firstname' autoComplete='off' required/>
+                          <input placeholder="" type="text" className="input bg-secondary text-light" name='firstname' autoComplete='off' required/>
                           <span>First name</span>
                       </label>
 
                       <label>
-                          <input placeholder="" type="text" class="input bg-secondary text-light" name='lastname' autoComplete='off' required/>
+                          <input placeholder="" type="text" className="input bg-secondary text-light" name='lastname' autoComplete='off' required/>
                           <span>Last name</span>
                       </label>
                   </div>  
                           
                   <label>
-                      <input placeholder="" type="email" class="input bg-secondary text-light" name='email' autoComplete='off' required/>
+                      <input placeholder="" type="email" className="input bg-secondary text-light" name='email' autoComplete='off' required/>
                       <span>Email</span>
                   </label> 
                       
                   <label>
-                      <textarea rows="3" placeholder="" class="input01 bg-secondary text-light" name='message' autoComplete='off' required></textarea>
+                      <textarea rows="3" placeholder="" className="input01 bg-secondary text-light" name='message' autoComplete='off' required></textarea>
                       <span>Message</span>
                   </label>
                   
                   <div className='col-12'>
                     <button className='button2 my-3 float-end'>
-                      <span class="text">submit</span>
+                      <span className="text">submit</span>
                     </button>
                   </div>
               </form>
