@@ -21,23 +21,23 @@ const Contact = () => {
               <form class="form bg-dark my-5 shadow-lg" action='https://formspree.io/f/meqyqqzb' method='POST'>
                   <div class="flex mt-5">
                       <label>
-                          <input required="" placeholder="" type="text" class="input bg-secondary text-light" name='firstname'/>
+                          <input placeholder="" type="text" class="input bg-secondary text-light" name='firstname' autoComplete='off' required/>
                           <span>First name</span>
                       </label>
 
                       <label>
-                          <input required="" placeholder="" type="text" class="input bg-secondary text-light" name='lastname'/>
+                          <input placeholder="" type="text" class="input bg-secondary text-light" name='lastname' autoComplete='off' required/>
                           <span>Last name</span>
                       </label>
                   </div>  
                           
                   <label>
-                      <input required="" placeholder="" type="email" class="input bg-secondary text-light" name='email'/>
+                      <input placeholder="" type="email" class="input bg-secondary text-light" name='email' autoComplete='off' required/>
                       <span>Email</span>
                   </label> 
                       
                   <label>
-                      <textarea required="" rows="3" placeholder="" class="input01 bg-secondary text-light" name='message'></textarea>
+                      <textarea rows="3" placeholder="" class="input01 bg-secondary text-light" name='message' autoComplete='off' required></textarea>
                       <span>Message</span>
                   </label>
                   
