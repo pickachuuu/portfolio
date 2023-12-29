@@ -18,12 +18,35 @@ const Contact = () => {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                  <form className="form my-5 bg-dark">
-                    <div className="title lead text-light my-3">Email me</div>
-                    <input type="text" placeholder="Your email" className="input bg-dark text-light lead my-3"/>
-                    <textarea placeholder="Your message" className='bg-dark text-light lead'></textarea>
-                    <button type="submit" className='mt-5 button2'>Submit</button>
-                  </form>
+              <form class="form bg-dark my-5 shadow-lg" action='https://formspree.io/f/meqyqqzb' method='POST'>
+                  <div class="flex">
+                      <label>
+                          <input required="" placeholder="" type="text" class="input bg-secondary text-light" name='firstname'/>
+                          <span>First name</span>
+                      </label>
+
+                      <label>
+                          <input required="" placeholder="" type="text" class="input bg-secondary text-light" name='lastname'/>
+                          <span>Last name</span>
+                      </label>
+                  </div>  
+                          
+                  <label>
+                      <input required="" placeholder="" type="email" class="input bg-secondary text-light" name='email'/>
+                      <span>Email</span>
+                  </label> 
+                      
+                  <label>
+                      <textarea required="" rows="3" placeholder="" class="input01 bg-secondary text-light" name='message'></textarea>
+                      <span>Message</span>
+                  </label>
+                  
+                  <div className='col-12'>
+                    <button className='button2 my-3 float-end'>
+                      <span class="text">submit</span>
+                    </button>
+                  </div>
+              </form>
               </div>
             </div>
           </div>
@@ -32,5 +55,7 @@ const Contact = () => {
     </div>
   );
 };
+
+
 
 export default Contact;
