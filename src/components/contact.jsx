@@ -3,7 +3,7 @@ import { DiGithubBadge } from 'react-icons/di';
 
 const Contact = () => {
   return (
-    <div className="container-fluid mb-5 bg-custom" data-bs-spy="scroll" data-bs-target="#navbar-example2" id="scrollspyHeading4">
+    <div className="container-fluid bg-custom" data-bs-spy="scroll" data-bs-target="#navbar-example2" id="scrollspyHeading4">
       <div className="row">
         <div className="col-12">
           <div className="text-center">
@@ -19,7 +19,7 @@ const Contact = () => {
             <div className="row">
               <div className="col-12">
               <form class="form bg-dark my-5 shadow-lg" action='https://formspree.io/f/meqyqqzb' method='POST'>
-                  <div class="flex">
+                  <div class="flex mt-5">
                       <label>
                           <input required="" placeholder="" type="text" class="input bg-secondary text-light" name='firstname'/>
                           <span>First name</span>
