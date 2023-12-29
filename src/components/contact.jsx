@@ -1,5 +1,4 @@
 import React from 'react';
-import { DiGithubBadge } from 'react-icons/di';
 
 const Contact = () => {
   return (
@@ -55,7 +54,5 @@ const Contact = () => {
     </div>
   );
 };
-
-
 
 export default Contact;
