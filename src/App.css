@@ -10,6 +10,11 @@ a {
     text-align: justify;
 }
 
+.avatar{
+  width: 70%;
+  height: 70%;
+  border-radius: 70%;
+}
 
 
 .cardImg{
