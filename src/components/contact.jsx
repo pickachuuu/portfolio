@@ -6,9 +6,6 @@ const Contact = () => {
       <div className="row">
         <div className="col-12">
           <div className="text-center">
-            {/* <h1 className="display-2 text-light mt-5">
-              Get in Touch
-            </h1> */}
             </div>
         </div>
       </div>
@@ -22,6 +19,7 @@ const Contact = () => {
             <div className="row">
               <div className="col-12">
               <form className="form bg-dark my-5 shadow-lg" action='https://formspree.io/f/meqyqqzb' method='POST'>
+                  <h1 className='display-4 text-light text-center'>Email me</h1>
                   <div className="flex mt-5">
                       <label>
                           <input placeholder="" type="text" className="input bg-secondary text-light" name='firstname' autoComplete='off' required/>
@@ -45,8 +43,27 @@ const Contact = () => {
                   </label>
                   
                   <div className='col-12'>
-                    <a className='btn-submit my-3 bg-dark float-end'></a>
+                  <button className='btn-submit float-end my-4'>
+                  <div className="svg-wrapper-1">
+                    <div className="svg-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        height="24"
+                      >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                          fill="currentColor"
+                          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                        ></path>
+                      </svg>
+                    </div>
                   </div>
+                  <span>Send</span>
+                </button>
+
+                </div>
               </form>
               </div>
             </div>

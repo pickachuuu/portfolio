@@ -325,69 +325,60 @@ a {
 
 /* button test 3 */
 
-
 .btn-submit {
-  position: relative;
-  background-color: transparent;
-  color: #e8e8e8;
-  font-size: 17px;
-  font-weight: 600;
-  border-radius: 10px;
-  width: 150px;
-  height: 60px;
+  font-family: inherit;
+  font-size: 20px;
+  background: #343a40;
+  color: rgb(255, 255, 255);
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
   border: none;
-  text-transform: uppercase;
-  cursor: pointer;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.2s;
+  cursor: pointer;
 }
 
-.btn-submit::before {
-  content: "Submit";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  background: white;
-  color: black;
-  /* background: linear-gradient(135deg,#7b4397,#0040ff ); */
-  transform: translate(0%,90%);
-  z-index: 99;
-  position: relative;
-  transform-origin: bottom;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  text-decoration: none;
+.btn-submit span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
 }
 
-.btn-submit::after {
-  content: "Done";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #333;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  transform-origin: top;
-  transform: translate(0%,-100%);
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+.btn-submit svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+.btn-submit:hover{
+  color: white;
 }
 
-.btn-submit:hover::before {
-  transform: translate(0%,0%);
+.btn-submit:hover .svg-wrapper {
+  color: white;
+  animation: fly-1 0.6s ease-in-out infinite alternate;
 }
 
-.btn-submit:hover::after {
-  transform: translate(0%,-200%);
+.btn-submit:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
 }
 
-.btn-submit:focus {
-  outline: none;
+.btn-submit:hover span {
+  transform: translateX(5em);
 }
 
 .btn-submit:active {
-  scale: 0.95;
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
 }
