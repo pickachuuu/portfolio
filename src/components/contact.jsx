@@ -16,10 +16,10 @@ const Contact = () => {
               Get in Touch
               <hr></hr>
             </h1>
-            <div className="row">
-              <div className="col-12">
-              <form className="form bg-dark my-5 shadow-lg" action='https://formspree.io/f/meqyqqzb' method='POST'>
-                  <h1 className='display-4 text-light text-center'>Email me</h1>
+            <div className="row justify-content-center">
+              <div className="col-lg-5">
+              <form className="form bg-dark my-5 shadow" action='https://formspree.io/f/meqyqqzb' method='POST'>
+                  <h1 className='display-6 text-light text-center'>Email me</h1>
                   <div className="flex mt-5">
                       <label>
                           <input placeholder="" type="text" className="input bg-secondary text-light" name='firstname' autoComplete='off' required/>
@@ -62,10 +62,16 @@ const Contact = () => {
                   </div>
                   <span>Send</span>
                 </button>
-
                 </div>
               </form>
               </div>
+
+              <div className="col-lg-5">
+                <div className='custom-cntr mt-5 shadow bg-dark'>
+                  <h1 className='display-6 text-light text-center'>Socials</h1>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>

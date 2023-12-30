@@ -115,7 +115,7 @@ const WorkSection = () => {
                     </p>
                     <p className='lead'>Current progress</p>
                     <ul>
-                      <li>Log-in</li>
+                      <li>Log-in</li> 
                       <li>Register</li>
                     </ul>
                   </div>

@@ -10,8 +10,10 @@ a {
     text-align: justify;
 }
 
+
+
 .cardImg{
-    width: 90%;
+    width: 100%;
     height: 50%;
     background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
     border-radius: 20px;
@@ -381,4 +383,45 @@ a {
   to {
     transform: translateY(-0.1em);
   }
+}
+
+/* test */
+
+.custom-cntr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background-color: #0d0b0b;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.message {
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 14px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.custom-cntr label {
+  position: relative;
+}
+
+.custom-cntr label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 5px;
+}
+
+
+.custom-cntr label {
+  color: rgb(255, 255, 255);
 }
