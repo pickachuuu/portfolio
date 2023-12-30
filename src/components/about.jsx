@@ -12,7 +12,7 @@ import self from '../images/me.jpg';
 const About = () => {
   return (
     <div className='container-fluid bg-custom'>
-    <div className='container bg-custom' data-bs-spy="scroll" data-bs-target="#navbar-example2" id='scrollspyHeading2'>
+    <div className='container bg-custom' data-bs-spy="scroll" data-bs-target="#navbar-example2" id='About'>
       <div className='row'>
         <div className='col-lg-12'>
           <div className='text-center'>

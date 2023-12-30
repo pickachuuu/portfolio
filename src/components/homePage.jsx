@@ -3,7 +3,7 @@ import banner from '../images/banner.png'
 
 const homePage = () => {
   return (
-    <div className='container-fluid' data-bs-spy="scroll" data-bs-target="#navbar-example2" id='scrollspyHeading1' style={{backgroundImage: `url(${banner})`}} >
+    <div className='container-fluid' data-bs-spy="scroll" data-bs-target="#navbar-example2" id='Home' style={{backgroundImage: `url(${banner})`}} >
     <div className='container-lg mt-5 p-5'> 
       <div className='row'>
         <div className='col-lg-12 col-12 p-5 mt-5'>

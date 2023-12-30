@@ -7,7 +7,7 @@ import Rental from '../images/5.png';
 
 const WorkSection = () => {
   return (
-    <div className="container-fluid py-5 bg-custom1 text-light" id="scrollspyHeading3">
+    <div className="container-fluid py-5 bg-custom1 text-light" id="Portfolio">
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
