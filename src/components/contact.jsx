@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="row">
         <div className="col-12">
           <div className="text-center">
-            <h1 className="display-5 text-light" style={{ marginTop: '5%' }}>
+            <h1 className="display-2 text-light mt-5">
               Get in Touch
             </h1>
           </div>

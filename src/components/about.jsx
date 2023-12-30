@@ -16,7 +16,7 @@ const About = () => {
       <div className='row'>
         <div className='col-lg-12'>
           <div className='text-center'>
-            <h1 className='display-2 mt-5' style={{ color: 'white'}}>
+            <h1 className='display-2 mt-5 text-light'>
               About Me
               <hr></hr>
             </h1>
@@ -42,7 +42,7 @@ const About = () => {
               to craft efficient and dynamic solutions.
             </p>
           </div>
-          <p className='p-5 animate__delay-2s'>
+          <p className='mt-1 mb-5 animate__delay-2s'>
             <img src={Python} alt='Python' />
             <img src={Java} alt='Java' />
             <img src={C} alt='C' />
