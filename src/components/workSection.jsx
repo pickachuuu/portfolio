@@ -111,7 +111,7 @@ const WorkSection = () => {
                       <div className="progress-bar" style={{ width: '25%' }}></div>
                     </div>
                     <p className="card-text">
-                      "In progress: Developing a user-friendly Car Rental Website enabling account creation, login, and realistic car rental simulations."
+                      In progress: Developing a user-friendly Car Rental Website enabling account creation, login, and realistic car rental simulations.
                     </p>
                     <p className='lead'>Current progress</p>
                     <ul>

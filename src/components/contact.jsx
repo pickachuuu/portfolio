@@ -6,15 +6,19 @@ const Contact = () => {
       <div className="row">
         <div className="col-12">
           <div className="text-center">
-            <h1 className="display-2 text-light mt-5">
+            {/* <h1 className="display-2 text-light mt-5">
               Get in Touch
-            </h1>
-          </div>
+            </h1> */}
+            </div>
         </div>
       </div>
       <div className="row">
         <div className="col-12 mx-auto">
           <div className="container">
+          <h1 className="display-2 text-light text-center mt-5">
+              Get in Touch
+              <hr></hr>
+            </h1>
             <div className="row">
               <div className="col-12">
               <form className="form bg-dark my-5 shadow-lg" action='https://formspree.io/f/meqyqqzb' method='POST'>
@@ -41,9 +45,7 @@ const Contact = () => {
                   </label>
                   
                   <div className='col-12'>
-                    <button className='button2 my-3 float-end'>
-                      <span className="text">submit</span>
-                    </button>
+                    <a className='btn-submit my-3 bg-dark float-end'></a>
                   </div>
               </form>
               </div>
