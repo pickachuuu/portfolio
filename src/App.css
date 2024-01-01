@@ -280,37 +280,7 @@ a {
     border-radius: 5px;
   }
   
-/* testing new button */
 
-.button2 {
-  --hover-shadows: 16px 16px 33px #201d1d,
-    -16px -16px 33px #404040;
-  --accent: rgb(255, 255, 255);
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  border: none;
-  border-radius: 1.1em;
-  background-color: #343a40;
-  color: white;
-  padding: 1em 2em;
-  transition: box-shadow ease-in-out 0.3s,
-    background-color ease-in-out 0.1s,
-    letter-spacing ease-in-out 0.1s,
-    transform ease-in-out 0.1s;
-  box-shadow: 13px 13px 10px #1c1c1c,
-    -13px -13px 10px #1f2326;
-}
-
-.button2:hover {
-  box-shadow: var(--hover-shadows);
-}
-
-.button2:active {
-  box-shadow: var(--hover-shadows),
-    var(--accent) 0px 0px 30px 5px;
-  background-color: var(--accent);
-  transform: scale(0.95);
-}
 
 
 /* testing new bg */
@@ -401,6 +371,7 @@ a {
   padding: 20px;
   border-radius: 10px;
   position: relative;
+  opacity: 70%;
 }
 
 .message {
@@ -429,4 +400,81 @@ a {
 
 .custom-cntr label {
   color: rgb(255, 255, 255);
+}
+
+
+/* social */
+
+.social-crd {
+  display: flex;
+  height: 50px;
+  width: 220px;
+}
+
+.social-crd a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.33%;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s;
+  border-radius: 50px;
+}
+
+.social-crd svg {
+  width: 60%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.social-crd a:hover {
+  opacity: 0.8;
+  background-color: #242c34;
+  transform: scale(1.1);
+}
+
+
+
+
+.email {
+  display: table;
+  width: 40px;
+}
+
+.email a {
+  display: table-cell;
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.email svg {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s, transform 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.email a:hover {
+  background-color: #242c34;
+}
+
+.email a:hover svg {
+  opacity: 0.8;
+  transform: scale(1.2);
 }
