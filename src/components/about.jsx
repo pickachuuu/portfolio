@@ -7,7 +7,7 @@ import CSS from '../images/Css.png';
 import HTML from '../images/Html.png';
 import ReactLogo from '../images/React.png';
 import VSC from '../images/VSC.png';
-import self from '../images/me.jpg';
+import self from '../images/me1.jpg';
 
 const About = () => {
   return (
@@ -31,7 +31,7 @@ const About = () => {
             </p>
           </div>
           <div className='mb-5'>
-          <p className='mt-1 mb-5 animate__delay-2s'>
+          <p className='mt-1 mb-5 animate__delay-2s' style={{height: '100px'}}>
             <img src={Python} alt='Python' />
             <img src={Java} alt='Java' />
             <img src={C} alt='C' />

@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav id="navbar-example2" className="navbar navbar-expand-lg bg-body-tertiary fixed-top"  data-bs-theme="dark"  style={{background: "#351c75"}}>
       <div className="container-fluid">
-        <a className="navbar-brand text-primary" href="#">
+        <a className="navbar-brand text-light" href="#">
           Derek Berbo
         </a>
         <button
