@@ -7,7 +7,7 @@ import CSS from '../images/Css.png';
 import HTML from '../images/Html.png';
 import ReactLogo from '../images/React.png';
 import VSC from '../images/VSC.png';
-import self from '../images/me1.jpg';
+import self from '../images/me.jpg';
 
 const About = () => {
   return (
