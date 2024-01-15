@@ -108,15 +108,14 @@ const WorkSection = () => {
                     <h5 className="card-title d-inline-block p-1">Car Rental Website</h5>
                     <span className="badge text-bg-info ml-5">WIP</span>
                     <div className="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                      <div className="progress-bar" style={{ width: '25%' }}></div>
+                      <div className="progress-bar" style={{ width: '15%' }}></div>
                     </div>
                     <p className="card-text">
                       In progress: Developing a user-friendly Car Rental Website enabling account creation, login, and realistic car rental simulations.
                     </p>
-                    <p className='lead'>Current progress</p>
+                    <p className='lead'>Finished</p>
                     <ul>
                       <li>Log-in</li> 
-                      <li>Register</li>
                     </ul>
                   </div>
                 </div>
